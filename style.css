@@ -1,46 +1,83 @@
-h1{
-  font-size:16px;
-  text-align:center;
-}
-footer{
-text-align:center;
-font-size:12px;
-}
-img{
-width: 42px;
-height:42px;
-}
-body{
-	background-color: white;
-}
-          #blocos{
-		background-color: blue;
-		justify-content: center;
-		height: 50vh;
-		width: 70%;
-	}
-	#article1{
-		background-color: blue;
-		width: 250px;
-		height: 200px;
-	}
-	#article2{
-		background-color: red;
-		margin: 20px 0px 20px 20px;
-		width: 250px;
-		height: 200px;
-	}
-	#aside1{
-		background-color: #ff6b99;
-		width: 100px;
-		height: 100%;
-		margin-left: 150px;
-	}
-	#aside2{
-		background-color: #00ff62;
-		margin-left: 10px;
-		width: 110px;
-		height: 50vh;
-		margin-top: 21vh;
-	}
-  
+			body{
+				background-color: rgb(255, 255, 255); 
+			}
+			header{
+				background-color: rgb(235, 204, 241); 
+				display: block;
+				justify-content: center;
+				align-items: center;
+				text-align: center;
+			}
+			section{
+				background-color: rgb(218, 97, 230);
+			}
+			footer{
+				margin-top: 10px;
+				text-align: center;
+				background-color: rgb(213, 153, 224);
+			}
+			
+			a{
+				list-style-type: none;
+				color: white;
+			}
+
+			#img{
+				background-color: white;
+				width:320px;
+				height:205px;
+				right: 150px;
+				top: 70px;
+			}
+			#nav{
+				background-color: rgb(179, 33, 236);
+				box-shadow: 7px 7px 9px 0px black;
+			}
+			main{
+				margin-top: 20px;
+				background-color: rgb(182, 49, 194); 
+				display: flex;
+				height: 50vh;
+			}
+			#nome{
+				font-weight: bold;	
+				font-size: 17px;
+				text-align: center;
+			}
+			#nome1{
+				font-size: 17px;
+				text-align: center;
+			}
+			#tres{
+				background-color: rgb(234, 0, 255); 
+				width: 20%;
+				height: 70%;
+				margin-left: 78%;
+			}
+			#meio{
+				background-color: #8d00ebb4; 
+				display: block;
+				width: 77%;
+			}
+			#um{
+				background-color: rgb(160, 19, 160); 
+				height: 40%;
+				margin-left: 10px;
+				width: 98%;
+			}
+			#dois{
+				background-color: rgb(85, 0, 141); 
+				height: 40%;
+				width: 98%;
+				margin-left: 10px;
+			}
+			#quatro{
+				background-color: rgb(175, 0, 161); 
+				flex-direction: column;
+				margin-left: 20px;
+				width: 20%;
+			}
+			#k{
+           			font-size: 25px;
+				text-align: center;
+			}
